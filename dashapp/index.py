@@ -5,17 +5,16 @@ from dash.dependencies import Input, Output
 import dash
 
 from dashapp import app
-from dashapp.header import header
-from dashapp.example.exampletab import example_tab_layout
-from dashapp.about.abouttab import about_tab_layout
+from dashapp.home.hometab import home_tab_layout
+from dashapp.material.materialtab import material_tab_layout
 
 from config import PROJECT_TITLE
 
 # Register tabs following this format
 # {'name': 'tab-X', 'ulr': '/tabname', 'label': 'Tab Name', 'container': this_tab_layout}
 TABS = [
-    {'name': 'tab-0', 'url': '/extab', 'label': 'Example Tab', 'container': example_tab_layout},
-    {'name': 'tab-1', 'url': '/about', 'label': 'About', 'container': about_tab_layout},
+    {'name': 'tab-0', 'url': '/accueil', 'label': 'Accueil', 'container': home_tab_layout},
+    {'name': 'tab-1', 'url': '/materiel', 'label': 'Planification et matériel', 'container': material_tab_layout},
 ]
 
 
@@ -35,7 +34,7 @@ layout = html.Div([
             dbc.Col(tabs),
         ], no_gutters=True, ),
     ], className='pt-2 text-light bg-dark', style={'border-bottom-style': 'solid', 'border-width': '1px'}),
-    dbc.Container([], id='tab-container', fluid=True, style={'padding-top': '3vh'}),
+    dbc.Container([], id='tab-container', fluid=True, style={'padding-top': '3vh', 'padding-bottom': '3vh'}),
 ], style={'font-family': 'helvetica,arial,courier,sans-serif'})
 
 

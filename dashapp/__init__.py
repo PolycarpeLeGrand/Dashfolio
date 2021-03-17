@@ -1,8 +1,9 @@
 import dash
 import pickle
 import dash_bootstrap_components as dbc
+import codecs
 
-from config import PROJECT_TITLE, IS_PROD, DATA_PATHS
+from config import PROJECT_TITLE, IS_PROD, MARKDOWNS_PATH
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SIMPLEX], title=PROJECT_TITLE,
                 suppress_callback_exceptions=IS_PROD)
@@ -14,8 +15,12 @@ def load_df_from_pickle(path):
         return pickle.load(f)
 
 
-DATA = {name: load_df_from_pickle(path) for name, path in DATA_PATHS.items()}
+def load_markdown_file(filename, path=MARKDOWNS_PATH):
+    with codecs.open(path / filename, 'r', 'utf-8') as f:
+        return f.read()
 
 
-# DATA = [2312, 34234, 3453]  # with temp as open(): DATA = pickle.load(PATH)
+PRES_MD = load_markdown_file('pres.md')
+
+
 
