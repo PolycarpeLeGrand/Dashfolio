@@ -1,0 +1,3 @@
+
+
+INFO_ICON = '&#x1F6C8'
