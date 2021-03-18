@@ -14,6 +14,11 @@ material_pres_card = dbc.Card([
     html.Hr(style={'width': '30%', 'text-align': 'left', 'margin-left': '0px'}),
     html.Br(),
     dcc.Markdown('En construction, mise à jour imminente!', className='h6'),
+    html.H3('Exemples de matériel'),
+    html.Hr(style={'width': '30%', 'text-align': 'left', 'margin-left': '0px'}),
+    html.Br(),
+    html.Iframe(src='https://youtu.be/31Sgq_O4COo', style={'margin': '5px'}),
+    html.Iframe(src='https://youtu.be/kYEUH0NBO7I', style={'margin': '5px'})
 ], body=True)
 
 
