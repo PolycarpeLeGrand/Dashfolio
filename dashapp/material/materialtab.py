@@ -18,8 +18,14 @@ material_pres_card = dbc.Card([
     html.H3('Exemples de matériel'),
     html.Hr(style={'width': '30%', 'text-align': 'left', 'margin-left': '0px'}),
     html.Br(),
-    html.Iframe(src='https://www.youtube.com/embed/31Sgq_O4COo', style={'margin': '5px', 'height': '100%', 'width': '100%','border': 'none'}),
-    html.Iframe(src='https://www.youtube.com/embed/kYEUH0NBO7I', style={'margin': '5px', 'border': 'none'})
+    dbc.Container([
+        html.Iframe(src='https://www.youtube.com/embed/31Sgq_O4COo',
+                    style={'position': 'absolute', 'top': '0', 'bottom': '0', 'border': 'none', 'width': '100%','height': '100%'}),
+    ], style={'position': 'relative', 'width': '90%', 'height': '0', 'padding-left': '0', 'padding-bottom': '56.25%'}),
+    dbc.Container([
+        html.Iframe(src='https://www.youtube.com/embed/kYEUH0NBO7I',
+                    style={'position': 'absolute', 'top': '0', 'bottom': '0', 'border': 'none', 'width': '100%','height': '100%'}),
+    ], style={'position': 'relative', 'width': '90%', 'height': '0', 'padding-left': '0', 'padding-bottom': '56.25%'}),
 ], body=True)
 
 
