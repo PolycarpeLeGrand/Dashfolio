@@ -14,11 +14,12 @@ material_pres_card = dbc.Card([
     html.Hr(style={'width': '30%', 'text-align': 'left', 'margin-left': '0px'}),
     html.Br(),
     dcc.Markdown('En construction, mise à jour imminente!', className='h6'),
+    html.Iframe(src='https://giphy.com/embed/6uGhT1O4sxpi8', style={'margin': '5px', 'border': 'none'}),
     html.H3('Exemples de matériel'),
     html.Hr(style={'width': '30%', 'text-align': 'left', 'margin-left': '0px'}),
     html.Br(),
-    html.Iframe(src='https://youtu.be/31Sgq_O4COo', style={'margin': '5px'}),
-    html.Iframe(src='https://youtu.be/kYEUH0NBO7I', style={'margin': '5px'})
+    html.Iframe(src='https://www.youtube.com/embed/31Sgq_O4COo', style={'margin': '5px', 'height': '100%', 'width': '100%','border': 'none'}),
+    html.Iframe(src='https://www.youtube.com/embed/kYEUH0NBO7I', style={'margin': '5px', 'border': 'none'})
 ], body=True)
 
 
