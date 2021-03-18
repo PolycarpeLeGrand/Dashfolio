@@ -26,5 +26,6 @@ SEQ_MD = load_markdown_file('seq.md')
 AUTH_MD = load_markdown_file('auth.md')
 CONSPI_MD = load_markdown_file('conspi.md')
 GRILLE_MD = load_markdown_file('grille.md')
+QUESTIONNAIRE_MD = load_markdown_file('questionnaire.md')
 
 

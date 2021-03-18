@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
 
 from tools.factories import jumbotron_2_columns
-from dashapp import app, MAT_MD, SEQ_MD, AUTH_MD, CONSPI_MD, GRILLE_MD
+from dashapp import app, MAT_MD, SEQ_MD, AUTH_MD, CONSPI_MD, GRILLE_MD, QUESTIONNAIRE_MD
 
 # Set tab id
 TAB_ID = 'material-tab'
@@ -24,7 +24,7 @@ material_pres_card = dbc.Card([
     html.Br(),
 
     dcc.Markdown(SEQ_MD, className='h5', style={'margin-bottom': 0}),
-    html.A('Séquence d\'évaluation', href='assets/travolta.gif', target='_blank', style={'text-decoration': 'underline'}, className='h5'),
+    html.A('Séquence d\'évaluation', href='assets/sequence.pdf', target='_blank', style={'text-decoration': 'underline'}, className='h5'),
     html.Br(),
 
     dcc.Markdown(AUTH_MD, className='h5'),
@@ -38,12 +38,17 @@ material_pres_card = dbc.Card([
     html.A('Grille d\'évaluation', href='assets/grille.pdf', target='_blank', style={'text-decoration': 'underline'}, className='h5'),
     html.Br(),
 
+    dcc.Markdown(QUESTIONNAIRE_MD, className='h5', style={'margin-bottom': 0}),
+    html.A('Questionnaire « Pour mieux vous connaitre »', href='https://docs.google.com/forms/d/e/1FAIpQLSdYA4-9au6Jrn76PrPcG5s3ZX5LXFqjPi48pz5dSsbmA_-GaQ/viewform?usp=sf_link', target='_blank', style={'text-decoration': 'underline'}, className='h5'),
+    html.Br(),
+
     dcc.Markdown(CONSPI_MD, className='h5'),
     dbc.Container([
         html.Iframe(src='https://www.youtube.com/embed/kYEUH0NBO7I',
                     style={'position': 'absolute', 'top': '0', 'bottom': '0', 'border': 'none', 'width': '100%', 'height': '100%'}),
     ], style={'position': 'relative', 'width': '90%', 'height': '0', 'padding-left': '0', 'padding-bottom': '56.25%', 'margin-bottom': '30px'}),
     html.Br(),
+
 ], body=True)
 
 
