@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
 
 from tools.factories import jumbotron_2_columns
-from dashapp import app
+from dashapp import app, MAT_MD, SEQ_MD, AUTH_MD, CONSPI_MD
 
 # Set tab id
 TAB_ID = 'material-tab'
@@ -15,17 +15,30 @@ material_pres_card = dbc.Card([
     html.Br(),
     dcc.Markdown('En construction, mise à jour imminente!', className='h6'),
     html.Iframe(src='https://giphy.com/embed/6uGhT1O4sxpi8', style={'margin': '5px', 'border': 'none'}),
-    html.H3('Exemples de matériel'),
+
+    html.H3('Exemples de matériel', style={'padding-top': '20px'}),
     html.Hr(style={'width': '30%', 'text-align': 'left', 'margin-left': '0px'}),
     html.Br(),
+
+    dcc.Markdown(MAT_MD, className='h5'),
+    html.Br(),
+
+    dcc.Markdown(SEQ_MD, className='h5'),
+    html.Br(),
+
+    dcc.Markdown(AUTH_MD, className='h5'),
     dbc.Container([
         html.Iframe(src='https://www.youtube.com/embed/31Sgq_O4COo',
                     style={'position': 'absolute', 'top': '0', 'bottom': '0', 'border': 'none', 'width': '100%','height': '100%'}),
-    ], style={'position': 'relative', 'width': '90%', 'height': '0', 'padding-left': '0', 'padding-bottom': '56.25%'}),
+    ], style={'position': 'relative', 'width': '90%', 'height': '0', 'padding-left': '0', 'padding-bottom': '56.25%', 'margin-bottom': '30px'}),
+    html.Br(),
+
+    dcc.Markdown(CONSPI_MD, className='h5'),
     dbc.Container([
         html.Iframe(src='https://www.youtube.com/embed/kYEUH0NBO7I',
                     style={'position': 'absolute', 'top': '0', 'bottom': '0', 'border': 'none', 'width': '100%','height': '100%'}),
-    ], style={'position': 'relative', 'width': '90%', 'height': '0', 'padding-left': '0', 'padding-bottom': '56.25%'}),
+    ], style={'position': 'relative', 'width': '90%', 'height': '0', 'padding-left': '0', 'padding-bottom': '56.25%', 'margin-bottom': '30px'}),
+    html.Br(),
 ], body=True)
 
 

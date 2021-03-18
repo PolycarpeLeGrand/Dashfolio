@@ -21,6 +21,9 @@ def load_markdown_file(filename, path=MARKDOWNS_PATH):
 
 
 PRES_MD = load_markdown_file('pres.md')
-
+MAT_MD = load_markdown_file('materiel.md')
+SEQ_MD = load_markdown_file('seq.md')
+AUTH_MD = load_markdown_file('auth.md')
+CONSPI_MD = load_markdown_file('conspi.md')
 
 
