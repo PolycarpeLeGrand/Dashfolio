@@ -7,6 +7,7 @@ import dash
 from dashapp import app
 from dashapp.home.hometab import home_tab_layout
 from dashapp.material.materialtab import material_tab_layout
+from dashapp.logi.logitab import logi_tab_layout
 
 from config import PROJECT_TITLE
 
@@ -15,6 +16,7 @@ from config import PROJECT_TITLE
 TABS = [
     {'name': 'tab-0', 'url': '/accueil', 'label': 'Accueil', 'container': home_tab_layout},
     {'name': 'tab-1', 'url': '/materiel', 'label': 'Planification et matériel', 'container': material_tab_layout},
+    {'name': 'tab-2', 'url': '/logi', 'label': 'Logique et argumentation', 'container': logi_tab_layout},
 ]
 
 
