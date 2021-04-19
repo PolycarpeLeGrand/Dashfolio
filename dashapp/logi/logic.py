@@ -1,4 +1,5 @@
 # https://bitbucket.org/Andrew-Kay/dcaa/src/master/logic.py
+# https://www.youtube.com/watch?v=D9pkdnIrjdM
 
 # quantifier: "there exists a unique ..."
 # e.g. exactly_one( n*n == 9 for n in range(1,10) ) is True

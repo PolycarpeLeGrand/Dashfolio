@@ -20,6 +20,7 @@ def load_markdown_file(filename, path=MARKDOWNS_PATH):
         return f.read()
 
 
+COURS_MD = load_markdown_file('cours.md')
 PRES_MD = load_markdown_file('pres.md')
 MAT_MD = load_markdown_file('materiel.md')
 SEQ_MD = load_markdown_file('seq.md')
