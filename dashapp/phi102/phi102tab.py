@@ -14,7 +14,7 @@ phi102_content_card = dbc.Card([
     html.Br(),
     dcc.Markdown('Placeholder', className='h5', style={'text-align': 'justify', 'line-height': '1.5'}),
 
-    html.H3('Exemples de matériel', style={'padding-top': '20px'}),
+    #html.H3('Exemples de matériel', style={'padding-top': '20px'}),
     html.Hr(style={'width': '30%', 'text-align': 'left', 'margin-left': '0px'}),
     html.Br(),
     dcc.Markdown(PLAN102_MD, className='h5', style={'text-align': 'justify', 'line-height': '1.5'}),

@@ -18,8 +18,8 @@ from config import PROJECT_TITLE
 TABS = [
     {'name': 'tab-0', 'url': '/accueil', 'label': 'Accueil', 'container': home_tab_layout},
     {'name': 'tab-1', 'url': '/materiel', 'label': 'Exemples de matériel', 'container': material_tab_layout},
-    {'name': 'tab-2', 'url': '/101', 'label': 'Phi 101', 'container': phi101_tab_layout},
-    {'name': 'tab-3', 'url': '/102', 'label': 'Phi 102', 'container': phi102_tab_layout},
+    {'name': 'tab-2', 'url': '/101', 'label': 'Philosophie et rationalité', 'container': phi101_tab_layout},
+    {'name': 'tab-3', 'url': '/102', 'label': 'L\'être humain', 'container': phi102_tab_layout},
     {'name': 'tab-4', 'url': '/logi', 'label': 'Logique et argumentation', 'container': logi_tab_layout},
 ]
 

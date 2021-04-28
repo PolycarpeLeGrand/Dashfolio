@@ -8,13 +8,8 @@ from dashapp import MAT_MD, SEQ_MD, AUTH_MD, CONSPI_MD, GRILLE_MD, QUESTIONNAIRE
 TAB_ID = 'material-tab'
 
 material_pres_card = dbc.Card([
-    html.H3('Présentation des cours'),
-    html.Hr(style={'width': '30%', 'text-align': 'left', 'margin-left': '0px'}),
-    html.Br(),
-    dcc.Markdown(COURS_MD, className='h5', style={'text-align': 'justify', 'line-height': '1.5'}),
-    #dcc.Markdown('En construction, mise à jour imminente!', className='h6'),
 
-    html.H3('Exemples de matériel', style={'padding-top': '20px'}),
+    html.H3('Exemples de matériel'),
     html.Hr(style={'width': '30%', 'text-align': 'left', 'margin-left': '0px'}),
     html.Br(),
 
