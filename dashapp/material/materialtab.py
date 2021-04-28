@@ -1,10 +1,8 @@
 import dash_core_components as dcc
 import dash_html_components as html
 import dash_bootstrap_components as dbc
-from dash.dependencies import Input, Output, State
 
-from tools.factories import jumbotron_2_columns
-from dashapp import app, MAT_MD, SEQ_MD, AUTH_MD, CONSPI_MD, GRILLE_MD, QUESTIONNAIRE_MD, COURS_MD
+from dashapp import MAT_MD, SEQ_MD, AUTH_MD, CONSPI_MD, GRILLE_MD, QUESTIONNAIRE_MD, COURS_MD
 
 # Set tab id
 TAB_ID = 'material-tab'

@@ -30,5 +30,7 @@ GRILLE_MD = load_markdown_file('grille.md')
 QUESTIONNAIRE_MD = load_markdown_file('questionnaire.md')
 LOGI_MD = load_markdown_file('logi.md')
 LOGI_INST_MD = load_markdown_file('logi_inst.md')
+PLAN101_MD = load_markdown_file('plan101.md')
+PLAN102_MD = load_markdown_file('plan102.md')
 
 
