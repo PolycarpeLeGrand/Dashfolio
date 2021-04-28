@@ -23,10 +23,11 @@ TABS = [
     {'name': 'tab-4', 'url': '/logi', 'label': 'Logique et argumentation', 'container': logi_tab_layout},
 ]
 
+BG_COLOR = '#255c60'
 
 # Builds tabs from TABS. Don't touch.
 tabs = dbc.Tabs(
-    [dbc.Tab(label=tab['label'], label_style={'cursor': 'pointer', 'padding': '10px', 'color': 'white'}, active_label_style={'color': 'black'}) for tab in TABS],
+    [dbc.Tab(label=tab['label'], label_style={'cursor': 'pointer', 'padding': '10px', 'color': 'white'}, active_label_style={'color': 'white', 'background': BG_COLOR, 'border': '1px', 'border-color': BG_COLOR, 'border-style': 'solid'}) for tab in TABS],
     id='tabs', active_tab='tab-0', style={'padding-left': '10px', 'border': '0px'}, className='lead'
 )
 
@@ -39,7 +40,7 @@ layout = html.Div([
             dbc.Col(html.H1(PROJECT_TITLE, style={'text-align': 'center', 'padding': '5px 20px 0px 30px', 'margin': '0px'}), width='auto'),
             dbc.Col(tabs),
         ], no_gutters=True, ),
-    ], className='pt-2 text-light bg-dark', style={'border-bottom-style': 'solid', 'border-width': '1px'}),
+    ], className='pt-2 text-light bg-dark', ),#style={'border-bottom-style': 'solid', 'border-width': '0px'}),
     dbc.Container([], id='tab-container', fluid=True, style={'padding-top': '3vh', 'padding-bottom': '3vh'}),
 ], style={'font-family': 'helvetica,arial,courier,sans-serif'})
 
