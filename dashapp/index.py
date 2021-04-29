@@ -23,7 +23,7 @@ TABS = [
     {'name': 'tab-4', 'url': '/logi', 'label': 'Logique et argumentation', 'container': logi_tab_layout},
 ]
 
-BG_COLOR = '#255c60'
+BG_COLOR = '#246066'
 
 # Builds tabs from TABS. Don't touch.
 tabs = dbc.Tabs(
@@ -40,8 +40,8 @@ layout = html.Div([
             dbc.Col(html.H1(PROJECT_TITLE, style={'text-align': 'center', 'padding': '5px 20px 0px 30px', 'margin': '0px'}), width='auto'),
             dbc.Col(tabs),
         ], no_gutters=True, ),
-    ], className='pt-2 text-light bg-dark', ),#style={'border-bottom-style': 'solid', 'border-width': '0px'}),
-    dbc.Container([], id='tab-container', fluid=True, style={'padding-top': '3vh', 'padding-bottom': '3vh'}),
+    ], className='text-light', style={'background': 'black', 'padding-top': '12px'}),
+    dbc.Container([], id='tab-container', fluid=True, style={'padding-top': '3vh', 'padding-bottom': '3vh', 'min-height': '93vh'}),
 ], style={'font-family': 'helvetica,arial,courier,sans-serif'})
 
 
