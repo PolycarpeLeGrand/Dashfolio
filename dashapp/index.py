@@ -24,7 +24,7 @@ TABS = [
 ]
 
 
-nav_items = [dbc.NavItem(dbc.NavLink(t['label'], href=t['url'], active='exact', style={'color': 'white'})) for t in TABS]
+nav_items = [dbc.NavItem(dbc.NavLink(t['label'], href=t['url'], active='exact', style={'color': 'white'}, className='')) for t in TABS]
 
 navbar = dbc.Navbar([
     html.H2(PROJECT_TITLE, style={'text-align': 'center', 'padding': '10px 80px 0px 30px', 'margin': '0px', 'color': 'white'}),
