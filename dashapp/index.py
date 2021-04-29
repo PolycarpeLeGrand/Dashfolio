@@ -34,7 +34,7 @@ navbar = dbc.Navbar([
 
 
 layout = html.Div([
-    dcc.Location(id='url', refresh=False, pathname=TABS[0]['url']),
+    dcc.Location(id='url'),
     navbar,
     dbc.Container([], id='tab-container', fluid=True, style={'padding-top': '3vh', 'padding-bottom': '3vh'}),
 ], style={'font-family': 'helvetica,arial,courier,sans-serif'})
@@ -42,7 +42,7 @@ layout = html.Div([
 
 @app.callback(
     Output('tab-container', 'children'),
-    [Input('url', 'pathname')]
+    [Input('url', 'pathname')],
 )
 def update_page(pathname):
     return next(filter(lambda x: x['url'] == pathname, TABS))['container']
