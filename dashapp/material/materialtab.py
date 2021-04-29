@@ -54,3 +54,8 @@ material_tab_layout = dbc.Container([
 
 ], fluid=True, id=TAB_ID)
 
+material_tab_layout = dbc.Row([
+        dbc.Col([
+            material_pres_card,
+        ], xs=12, lg=6)
+    ], justify='center')
