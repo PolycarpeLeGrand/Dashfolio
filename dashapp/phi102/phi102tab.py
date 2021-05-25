@@ -8,26 +8,21 @@ from dashapp import PLAN102_MD
 TAB_ID = 'phi102-tab'
 
 
-phi102_content_card = dbc.Card([
+phi102_content = html.Div([
     html.H3('L\'être humain'),
-    html.Hr(style={'width': '30%', 'text-align': 'left', 'margin-left': '0px'}),
+    html.Hr(className='hr-title'),
     html.Br(),
     dcc.Markdown('Placeholder', className='h5', style={'text-align': 'justify', 'line-height': '1.5'}),
 
     #html.H3('Exemples de matériel', style={'padding-top': '20px'}),
-    html.Hr(style={'width': '30%', 'text-align': 'left', 'margin-left': '0px'}),
+    html.Hr(className='hr-title'),
     html.Br(),
     dcc.Markdown(PLAN102_MD, className='h5', style={'text-align': 'justify', 'line-height': '1.5'}),
+])
 
-], body=True)
 
+phi102_layout = html.Div([
+    phi102_content
+], id=TAB_ID)
 
-phi102_tab_layout = dbc.Container([
-    dbc.Row([
-        dbc.Col([
-            phi102_content_card,
-        ], xs=12, lg=6)
-    ], justify='center'),
-
-], fluid=True, id=TAB_ID)
 

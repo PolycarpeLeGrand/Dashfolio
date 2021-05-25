@@ -1,5 +1,5 @@
 from dashapp import app
-from dashapp.index import layout
+from dashapp.layout import layout
 
 from config import LOCAL_IP, PORT, IS_PROD
 

@@ -5,8 +5,12 @@ import codecs
 
 from config import PROJECT_TITLE, IS_PROD, MARKDOWNS_PATH
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SIMPLEX], title=PROJECT_TITLE,
-                suppress_callback_exceptions=IS_PROD)
+app = dash.Dash(__name__, # external_stylesheets=[dbc.themes.SIMPLEX],
+                title=PROJECT_TITLE,
+                suppress_callback_exceptions=True,
+                meta_tags=[
+                    {"name": "viewport", "content": "width=device-width, initial-scale=1"}
+                ],)
 
 
 # Load data

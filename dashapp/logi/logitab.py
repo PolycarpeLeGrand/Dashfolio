@@ -25,10 +25,10 @@ TAB_ID = 'logi-tab'
 
 logi_title_div = html.Div([
     html.H3('Logique et argumentation'),
-    html.Hr(style={'width': '30%', 'text-align': 'left', 'margin-left': '0px'}),
+    html.Hr(className='hr-title'),
     html.Br(),
-    dcc.Markdown(LOGI_MD, className='h5', style={'max-width': '720px', 'text-align': 'justify', 'line-height': '1.5'}),
-    dbc.Button('Mode d\'emploi', id='logi-modal-btn', color='success', style={'margin-bottom': '24px'}),
+    dcc.Markdown(LOGI_MD, className='h5'),
+    html.Button('Mode d\'emploi', id='logi-modal-btn', className='logi-btn', style={'margin-bottom': '24px'}),
     dbc.Modal([
         dbc.ModalBody([dcc.Markdown(LOGI_INST_MD, className='h5')]),
     ], centered=True, id='logi-modal'),
@@ -74,7 +74,7 @@ logi_add_prem_div = html.Div([  # dbc.Card([
                        value=''),
         ], style={'min-width': '250px', }),
         dbc.FormGroup([
-            dbc.Button('Ajouter', color='success', id='logi-add-prem-btn'),
+            html.Button('Ajouter', className='logi-btn', id='logi-add-prem-btn'),
         ], style={'padding-left': '24px'}),
     ], inline=True, style={'border': 'solid', 'border-width': '1px', 'padding': '8px'}),
     # justify='start', align='start'),
@@ -90,7 +90,7 @@ logi_arg_conc_div = html.Div([
                options=[
                    {'label': p, 'value': p} for p in PROPS_WITH_NEG
                ]),
-    dbc.Button('Évaluer!', id='logi-eval-btn', color='success', style={'margin-left': '30px'}),
+    html.Button('Évaluer!', id='logi-eval-btn', className='logi-btn', style={'margin-left': '30px'}),
 ])
 
 logi_arg_div = html.Div([
@@ -106,7 +106,7 @@ logi_paragraph_div = html.Div([
 
 ])
 
-logi_main_card = dbc.Card([
+logi_layout = html.Div([
     dbc.Row([
         dbc.Col([
             logi_title_div,
@@ -117,29 +117,16 @@ logi_main_card = dbc.Card([
             logi_add_prem_div,
             logi_arg_div,
         ], style={'max-width': '720px'}),
-        dbc.Col([
-            logi_propositions_div
-        ], width=4),
-
         # dbc.Col([
 
         # ], xs=0, lg=2),
     ], justify='start'),
     dbc.Row([
         dbc.Col([
-
-        ]),
+            logi_propositions_div
+        ], lg=6),
     ]),
-], body=True)
-
-logi_tab_layout = dbc.Container([
-    dbc.Row([
-        dbc.Col([
-            logi_main_card,
-        ], )  # xs=12, lg=6)
-    ], justify='center'),
-
-], fluid=True, id=TAB_ID)
+], id=TAB_ID)
 
 
 def fn(p):
@@ -173,7 +160,6 @@ def prem_to_text(prem, mapping):
 
 
 def arg_to_text(prems, conc, mapping):
-
     # Remove upper case and period in prem texts
     for v, s in mapping.items():
         mapping[v] = s[:1].lower() + s[1:].replace('.', '') if s else v
@@ -250,7 +236,8 @@ def add_premise(n_c, p1, p2, operator, premises, prems_json):
 def eval_argument(n_c, prems, conc, props):
     assert conc[-1] in PROPS, 'Invalid conclusion error!'
 
-    sent_mapping = {prop['props']['children'][1]['props']['id'][-1]: prop['props']['children'][1]['props']['value'] for prop in props}
+    sent_mapping = {prop['props']['children'][1]['props']['id'][-1]: prop['props']['children'][1]['props']['value'] for
+                    prop in props}
     prems = json.loads(prems)['premises']
     conc = fn(conc)
     allowed_vars = {f'{v}': v for v in vars(*PROPS)}
@@ -275,4 +262,3 @@ def toggle_modal(n1, is_open):
     if n1:
         return not is_open
     return is_open
-

@@ -1,0 +1,28 @@
+
+const navs = document.querySelectorAll('.nav-link');
+const s = window.matchMedia("(max-width: 48em)");
+
+console.log(navs);
+
+navs.forEach(el => el.addEventListener('click', (x) => {
+    console.log('gyuguy');
+    /*
+    if (s.matches()) {
+        console.log('clic small');
+    }
+    else {
+        console.log('clic big');
+    }*/
+}))
+
+
+s.addEventListener('change', (x) => {
+    if (x.matches) {
+        console.log(document.querySelectorAll('.nav-link'));
+        return 'small';
+    } else {
+        console.log('big');
+        return 'big';
+    }
+})
+
