@@ -1,0 +1,3 @@
+#### Séquence d’évaluation
+
+Ce document présente une planification complète pour le premier cours du parcours. Le travail a été réalisé dans le cadre d’un cours sur l’évaluation des apprentissages, raison pour laquelle l’emphase est mise sur les évaluations (formatives et sommatives). Les détails du contenu ont toutefois été placés à titre indicatif, je vous invite à vous référer à la section « Philosophie et rationalité » pour une version plus à jour. L'organisation du cours et plusieurs des activités proposées demeurent toutefois pertinentes.
