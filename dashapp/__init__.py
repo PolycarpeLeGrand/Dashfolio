@@ -10,7 +10,11 @@ app = dash.Dash(__name__, # external_stylesheets=[dbc.themes.SIMPLEX],
                 suppress_callback_exceptions=True,
                 meta_tags=[
                     {"name": "viewport", "content": "width=device-width, initial-scale=1"}
-                ],)
+                ],
+                external_scripts=[
+                    'https://www.googletagmanager.com/gtag/js?id=G-SM0WLCZXDH',
+                ],
+                )
 
 
 # Load data
