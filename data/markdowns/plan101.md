@@ -1,4 +1,3 @@
-
 Dans le cadre du premier cours du parcours, je propose d'orienter la session autour du thème de l'argumentation. Ce choix m'apparaît particulièrement pertinent, autant pour introduire la discipline de façon claire et engageante que pour remplir les exigences plus spécifiques du devis. Un de mes principaux objectifs est d'amener les étudiant-e-s à développer des outils leur permettant à la fois de mieux comprendre et évaluer les positions philosophiques présentées et de mieux structurer leurs propres idées.
 
 Je constate d'ailleurs que la production d'une argumentation robuste et le traitement de séries d'arguments et contre-arguments posent un défi de taille pour plusieurs étudiant-e-s, ce qui peut s'avérer un obstacle important à la réussite, ne serait-ce qu'au niveau de la rédaction de le dissertation finale. Dans l'espoir de pallier à ces difficultés et d'assurer une préparation adéquate, nous chercherons tout au long de la session à répondre à la question suivante: « Qu'est-ce qu'un bon argument? ». Autrement dit, je propose de faire de l'argumentation à la fois l'outil de travail et l'objet d'étude principal. Cette façon de faire permet aussi d'assurer une continuité entre les différents éléments du cours, chaque notion travaillée pouvant ensuite être mise à contribution dans l'interprétation de celles présentées ultérieurement.
@@ -9,7 +8,28 @@ Ce modèle est très flexibilité quant au contenu exact qui sera abordé. Les p
 
 
 
-#### Contenu
+#### Planification et contenu
+
+La structure du cours a été pensée de façon à assurer un cheminement progressif vers l'atteinte de la compétence, qui peut être décomposée en un ensemble de critères. Pour traiter d'une question philosophique, les étudiant-e-s devront être en mesure de:
+
+1. **Comprendre et contextualiser la question**
+	
+	Il serait évidemment difficile de traiter d'une question philosophique sans avoir le bagage nécessaire pour bien comprendre la problématique en jeu. Pour commencer, il sera donc important de prendre le temps de bien introduire la discipline de façon à contextualiser les discussions et d'établir une base commune sur laquelle prendre appui.
+
+2. **Formuler une réponse cohérente et bien argumentée**
+	
+	Traiter d'une question philosophique ne consiste pas simplement à donner son opinion, mais implique la production d'une argumentation rigoureuse répondant aux exigences de rationalité. Cet aspect sera abordé lors de la deuxième étape, au cours de laquelle les étudiant-e-s seront introduit-e-s à la logique dans le but de les aider à mieux structurer leurs idées. Parallèlement, les techniques introduites seront également utiles afin de mieux comprendre les débats et positions à l'étude lors de la troisième étape, que ce soit pour les critiquer ou s'en inspirer.
+
+3. **S'appuyer sur les positions d'auteurs importants**
+	
+	Dans le cadre de ce premier cours, il serait bien sûr beaucoup trop ambitieux d'exiger que les étudiant-e-s développent une position originale. Ce faisant, nous travaillerons à partir de positions philosophiques classiques, notamment celles de philosophes de l'antiquité. Cette façon de faire permettra également aux étudiant-e-s de mieux saisir les tenants et aboutissants des débats entourant la question choisie.
+	
+4. **Produire une argumentation sur une question philosophique**
+	
+	Finalement, les étudiant-e-s devront réunir tous ces éléments de façon à montrer l'atteinte de la compétence à travers la rédaction de la dissertation finale.
+
+
+Suivant cette progression, le cours est organisé en quatre étapes, chacune s'inscrivant en continuité avec la précédente. Leurs objectifs respectifs correspondent, à quelques nuances près, aux quatre critères énoncés précédemment. 
 
 
 ##### Étape 1
@@ -40,7 +60,10 @@ Il sera intéressant de terminer par un retour critique sur la matière vue dura
 
 ##### Étape 3
 
-**Objectif:** Évaluer le contenu d'arguments en s'appuyant sur des position épistémologiques classiques
+**Objectifs:**
+
+* S'approprier les positions philosophiques d'auteurs importants de la tradition. 
+* Évaluer le contenu d'arguments en s'appuyant sur des position épistémologiques classiques.
 
 Lors de la troisième étape, nous construirons sur ces bases pour développer des outils permettant d'évaluer le contenu des arguments. Conséquemment, la matière sera surtout orientée vers l'épistémologie et la plupart des positions philosophiques présentées nous donnerons ainsi des outils pour évaluer les prémisses d'un argument. Nous commencerons toutefois par un léger détour plus métaphysique, visant à insister sur l'importance des concepts et du langage dans le discours philosophique. Ce sera également l'occasion de revenir sur le questionnement lancé en première partie et (tout dépendant des exigences fixées dans le plan cadre) de présenter de façon plus ou moins détaillée la théorie des idées de Platon.
 
@@ -64,17 +87,27 @@ La quatrième étape servira de conclusion et permettra de faire une dernière r
 #### Évaluations sommatives
 
 
+
 1. **Rapport écrit (Étape 1, 10%)**
+	
 	Ce premier travail, amorcé tôt dans la session, vise à donner le ton et à fixer les attentes. Le format, expliqué ci-dessous, vise à favoriser la coopération et à permettre aux étudiant-e-s de rencontrer leurs collègues. Mon espoir est que cela permette de briser la glace et contribue à instaurer un climat dynamique. En demandant une production écrite, je serai également en mesure d'évaluer la qualité du français et ainsi d'identifier les lacunes dès le début de la session, ce qui me permettra d'adapter mon enseignement et d'assurer un meilleur suivi des étudiant-e-s en difficulté.
 
 	Le travail se fait en trois temps et vise à intégrer les notions en lien avec les grandes questions de la philosophie et son émergence en Grèce antique. Pour la première partie, des équipes sont formées et chacune se voit attribuée un sujet correspondant soit à l'une des trois branches de la philosophie identifiées lors de l'introduction (métaphysique, épistémologie et éthique), soit à un auteur ou courant important de l'antiquité (Socrate, Platon, Aristote, le stoïcisme, etc.). Chaque équipe doit travailler à partir des notes de cours et du matériel complémentaire disponible afin de relever les aspects importants de son sujet. Lors de la deuxième partie, de nouvelles équipes sont formées, dans lesquelles chacun des membres a travaillé sur un sujet différent lors de l'étape précédente. Chaque étudiant doit présenter ses résultats à ses nouveau collègues, après quoi les équipes doivent discuter des liens qui peuvent être faits entre les différents sujets. Finalement, chaque étudiant-e doit, à partir du résultat des discussions, produire un rapport de recherche individuel d'environ 2 à 3 pages, dans lequel il ou elle présente le sujet abordé en première partie et établit des liens avec deux de ceux présentés par ses collègues.
+
 2. **Cahier de logique (Étape 2, 15%)**
+	
 	Si vous êtes passé-e par les cours de logique de Serge Robert à l'UQÀM, le format de cette évaluation vous sera certainement familier. Au cours de la deuxième étape, chaque étudiant-e aura à remplir un cahier d'exercices dans lequel seront consignés divers problèmes en lien avec la matière vue en classe. Des périodes d'exercices interactives seront prévues, au cours desquels les étudiant-e-s seront encouragé-e-s à collaborer et à poser leurs questions. 
 
 	Étant donné l'objectif du cours, nous ne toucherons qu'à quelques outils formels de base et l'emphase sera plutôt mise sur l'utilisation de ces outils au traitement ou à la rédaction d'arguments. Plusieurs des exercices concerneront donc l'identification des composantes logiques (prémisses, conclusion et opérateurs) au sein d'arguments ou d'extraits de textes afin d'en évaluer la valeur. Les étudiant-e-s devront également être en mesure de faire l'opération inverse, c'est-à-dire de rédiger un argument en s'appuyant sur un plan logique.
+
 3. **Examen de mi-session (Étapes 1 et 2, 15%)**
+	
 	L'examen de mi-session reviendra sur les principaux éléments vus aux cours des deux premières étapes. Il permettra également d'assurer un suivi individuel plus serré, ce qui est important puisque les deux premières évaluations ont une dimension coopérative.
+
 4. **Carnet de notes (Étape 3, 30%)**
+	
 	L'idée consiste à regrouper dans un même document un ensemble de ressources et d'exercices (formatifs et sommatifs): analyses et critiques d'arguments ou d'extraits de textes, notes de lecture, explication ou mise en contraste de thèses philosophiques, exercices d'écriture, etc. Cette façon de faire permet de varier les types de questions, d'insister sur la continuité entre les différentes notions, de suivre le travail et la progression des étudiants, et d'assurer une bonne préparation en vue de la dissertation. D'ailleurs, les étudiants auraient accès à ce document lors de la dissertation (à confirmer en fonction des directives départementales). Si un type de travail préparatoire précis est prescrit par le plan cadre (rédaction d'une introduction ou d'un paragraphe, préparation d'un plan détaillé, etc.), il serait intégré à ce travail. Dans le but de mieux répartir la charge de correction et d'assurer un meilleur suivi, l'évaluation pourrait être divisée en deux livrables.
+
 5. **Épreuve finale (Étape 4, 30%)**
+	
 	Le format (et la pondération) de la dissertation finale dépendra évidemment des directives départementales. Dans tous les cas, la question portera sur certaines des position étudiées en troisième partie et les critères seront directement liés à chacune des étapes du cours. Un exemple de grille d'évaluation est présenté dans la section « Exemples de matériel ».
