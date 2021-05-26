@@ -23,7 +23,7 @@ La structure du cours a été pensée de façon à assurer un cheminement progre
 3. **S'appuyer sur les positions d'auteurs importants**
 	
 	Dans le cadre de ce premier cours, il serait bien sûr beaucoup trop ambitieux d'exiger que les étudiant-e-s développent une position originale. Ce faisant, nous travaillerons à partir de positions philosophiques classiques, notamment celles de philosophes de l'antiquité. Cette façon de faire permettra également aux étudiant-e-s de mieux saisir les tenants et aboutissants des débats entourant la question choisie.
-	
+
 4. **Produire une argumentation sur une question philosophique**
 	
 	Finalement, les étudiant-e-s devront réunir tous ces éléments de façon à montrer l'atteinte de la compétence à travers la rédaction de la dissertation finale.
@@ -77,7 +77,7 @@ Ainsi, cette troisième étape permettra de se plonger directement dans différe
 
 ##### Étape 4
 
-**Objectif:** Traiter d'une question philosophique
+**Objectif:** Traiter d'une question philosophique.
 
 La quatrième étape servira de conclusion et permettra de faire une dernière révision en vue de l'épreuve finale. Un retour critique sur le contenu du cours sera fait afin de bien boucler la boucle et de permettre une ouverture sur le prochain cours du parcours.
 
