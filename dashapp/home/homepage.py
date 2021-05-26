@@ -11,12 +11,6 @@ home_text_div = html.Div([
     html.H3('Accueil'),
     html.Hr(className='hr-title'),
     html.Br(),
-    dcc.Markdown('Bonjour! Le site est en train d\'être mis à jour, ce texte changera sous peu.'),
-    #dcc.Markdown(PRES_MD, className='h5', style={'text-align': 'justify', 'line-height': '1.5'}),
-
-    html.H3('Mon approche'),
-    html.Hr(className='hr-title'),
-    html.Br(),
     dcc.Markdown(PRES_MD, className='h5'),
 ])
 
