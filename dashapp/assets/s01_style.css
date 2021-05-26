@@ -24,27 +24,6 @@ p, ul, ol {
     border: none;
 }
 
-.logi-btn {
-    background-color: #626e60;
-    color: #fcfcfc;
-    vertical-align: middle;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 0.25rem;
-    padding: 0.375rem 0.75rem;
-    box-shadow: 1px 1px 0.1rem 0 gray;
-
-}
-
-.logi-btn:hover {
-    box-shadow: 0 0 0.5rem 0 gray;
-    background-color: #6f7c6d;
-}
-
-.logi-btn:focus {
-    box-shadow: 0 0 0.1rem 0.1rem #6f7c6d;
-    outline: none;
-}
 
 @media (max-width: 64em) {
     #page-content {
@@ -75,10 +54,7 @@ p, ul, ol {
         border-radius: 3px;
         padding: 1rem;
         background-color: rgba(252, 252, 252, 0.95);
-        margin-left: 26rem;
-        margin-right: 4rem;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
+        margin: 4rem 4rem 4rem 26rem;
         /*max-width: 64rem;*/
     }
 }

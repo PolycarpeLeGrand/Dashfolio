@@ -8,10 +8,10 @@ from dashapp import PRES_MD
 TAB_ID = 'home-tab'
 
 home_text_div = html.Div([
-    html.H3('Accueil'),
-    html.Hr(className='hr-title'),
-    html.Br(),
-    dcc.Markdown(PRES_MD, className='h5'),
+    #html.H3('Accueil'),
+    #html.Hr(className='hr-title'),
+    #html.Br(),
+    dcc.Markdown(PRES_MD, className='md-content'),
 ])
 
 

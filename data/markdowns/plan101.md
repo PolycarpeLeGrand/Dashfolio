@@ -1,3 +1,6 @@
+Philosophie et rationalité
+--------------------------
+
 Dans le cadre du premier cours du parcours, je propose d'orienter la session autour du thème de l'argumentation. Ce choix m'apparaît particulièrement pertinent, autant pour introduire la discipline de façon claire et engageante que pour remplir les exigences plus spécifiques du devis. Un de mes principaux objectifs est d'amener les étudiant-e-s à développer des outils leur permettant à la fois de mieux comprendre et évaluer les positions philosophiques présentées et de mieux structurer leurs propres idées.
 
 Je constate d'ailleurs que la production d'une argumentation robuste et le traitement de séries d'arguments et contre-arguments posent un défi de taille pour plusieurs étudiant-e-s, ce qui peut s'avérer un obstacle important à la réussite, ne serait-ce qu'au niveau de la rédaction de le dissertation finale. Dans l'espoir de pallier à ces difficultés et d'assurer une préparation adéquate, nous chercherons tout au long de la session à répondre à la question suivante: « Qu'est-ce qu'un bon argument? ». Autrement dit, je propose de faire de l'argumentation à la fois l'outil de travail et l'objet d'étude principal. Cette façon de faire permet aussi d'assurer une continuité entre les différents éléments du cours, chaque notion travaillée pouvant ensuite être mise à contribution dans l'interprétation de celles présentées ultérieurement.
@@ -9,6 +12,7 @@ Ce modèle est très flexibilité quant au contenu exact qui sera abordé. Les p
 
 
 #### Planification et contenu
+
 
 La structure du cours a été pensée de façon à assurer un cheminement progressif vers l'atteinte de la compétence, qui peut être décomposée en un ensemble de critères. Pour traiter d'une question philosophique, les étudiant-e-s devront être en mesure de:
 
@@ -23,7 +27,7 @@ La structure du cours a été pensée de façon à assurer un cheminement progre
 3. **S'appuyer sur les positions d'auteurs importants**
 	
 	Dans le cadre de ce premier cours, il serait bien sûr beaucoup trop ambitieux d'exiger que les étudiant-e-s développent une position originale. Ce faisant, nous travaillerons à partir de positions philosophiques classiques, notamment celles de philosophes de l'antiquité. Cette façon de faire permettra également aux étudiant-e-s de mieux saisir les tenants et aboutissants des débats entourant la question choisie.
-
+	
 4. **Produire une argumentation sur une question philosophique**
 	
 	Finalement, les étudiant-e-s devront réunir tous ces éléments de façon à montrer l'atteinte de la compétence à travers la rédaction de la dissertation finale.
@@ -34,17 +38,19 @@ Suivant cette progression, le cours est organisé en quatre étapes, chacune s'i
 
 ##### Étape 1
 
-**Objectif:** Caractériser la philosophie à partir de ses grandes questions et de ses origines en Grèce antique.
+**Objectif:** Caractériser la philosophie à partir de ses grandes questions et de ses origines en Grèce antique.  
+**Durée:** 4 à 6 cours.
 
 La première étape visera à introduire la philosophie de façon plus générale, à partir de ses origines en Grèce antique (tel que prescrit dans dans le devis). Cela se fera en présentant brièvement certaines des grandes questions et quelques uns des grands auteurs de la tradition, de façon à mettre le sujet en contexte. En vertu du thème proposé, l'emphase sera mise sur l'importance de l'argumentation dans le discours philosophique. Cet aspect pourra notamment être utilisé pour marquer le contraste avec d'autres types de discours sur la réalité.
 
 Finalement, tout argument philosophique étant bien sûr présenté dans le but de répondre à une question sous-jacente, je crois qu'il sera pertinent de terminer en entamant un premier questionnement philosophique. Des extraits tirés du Phédon ou de la République pourraient s'avérer particulièrement intéressants pour compléter cette entrée en matière et mettre la table pour la suite des choses.
 
-**Durée:** 4 à 6 cours.
+
 
 ##### Étape 2
 
-**Objectif:** Utiliser des outils logiques pour traiter et développer des arguments.
+**Objectif:** Utiliser des outils logiques pour traiter et développer des arguments.  
+**Durée:** 8 à 10 cours.
 
 La deuxième étape permettra d'étudier l'argumentation au niveau formel, à l'aide de la logique. En gardant en tête les objectifs du cours, je propose de travailler à partir d'une version simplifiée de la logique des propositions. Le but sera avant tout de développer des techniques qui seront directement applicables pour la suite du cours. Ce faisant, je crois qu'il soit préférable de s'en tenir à du contenu relativement simple, de façon à pouvoir le travailler en profondeur et laisser beaucoup de place à la mise en pratique.
 
@@ -56,14 +62,16 @@ Tous ces éléments seront ensuite réunis et mis à contribution à la fois pou
 
 Il sera intéressant de terminer par un retour critique sur la matière vue durant l'étape. Notamment, il pourrait être question des limites des outils logiques présentés et, tout dépendant de la tournure des discussions, de quelques pistes de solutions. Cela permettra à la fois de réviser la matière, de corriger les quelques incompréhensions qui pourraient persister et d'amorcer la transition vers le prochain segment.
 
-**Durée:** 8 à 10 cours.
+
 
 ##### Étape 3
 
 **Objectifs:**
 
-* S'approprier les positions philosophiques d'auteurs importants de la tradition. 
+* S'approprier les positions philosophiques d'auteurs importants de la tradition.
 * Évaluer le contenu d'arguments en s'appuyant sur des position épistémologiques classiques.
+
+**Durée:** 10 à 12 cours.
 
 Lors de la troisième étape, nous construirons sur ces bases pour développer des outils permettant d'évaluer le contenu des arguments. Conséquemment, la matière sera surtout orientée vers l'épistémologie et la plupart des positions philosophiques présentées nous donnerons ainsi des outils pour évaluer les prémisses d'un argument. Nous commencerons toutefois par un léger détour plus métaphysique, visant à insister sur l'importance des concepts et du langage dans le discours philosophique. Ce sera également l'occasion de revenir sur le questionnement lancé en première partie et (tout dépendant des exigences fixées dans le plan cadre) de présenter de façon plus ou moins détaillée la théorie des idées de Platon.
 
@@ -73,19 +81,19 @@ Par la suite, j'aimerais focaliser l'attention sur la question de la justificati
 
 Ainsi, cette troisième étape permettra de se plonger directement dans différents questionnements philosophiques. Il sera également important de faire intervenir des problématiques plus près de l'actualité, de façon à utiliser les outils philosophiques étudiés à l'analyse de problèmes concrets. Je pense par exemple proposer un atelier sur les théorie du complot, dans lequel les étudiant-e-s seraient amené-e-s à composer des arguments complotistes spécieux, pour ensuite critiquer ceux de leurs collègues à partir des positions étudiées. Ce genre d'exercice permettrait de mettre en pratique toutes les notions vues dans les deuxième et troisième étape, à la fois dans le développement et la critique d'arguments.
 
-**Durée:** 10 à 12 cours.
+
 
 ##### Étape 4
 
-**Objectif:** Traiter d'une question philosophique.
+**Objectif:** Traiter d'une question philosophique.  
+**Durée:** 2 à 4 cours, incluant la rédaction de la dissertation si elle se fait en classe.
 
 La quatrième étape servira de conclusion et permettra de faire une dernière révision en vue de l'épreuve finale. Un retour critique sur le contenu du cours sera fait afin de bien boucler la boucle et de permettre une ouverture sur le prochain cours du parcours.
 
-**Durée:** 2 à 4 cours, incluant la rédaction de la dissertation si elle se fait en classe.
+
 
 
 #### Évaluations sommatives
-
 
 
 1. **Rapport écrit (Étape 1, 10%)**
@@ -111,3 +119,4 @@ La quatrième étape servira de conclusion et permettra de faire une dernière r
 5. **Épreuve finale (Étape 4, 30%)**
 	
 	Le format (et la pondération) de la dissertation finale dépendra évidemment des directives départementales. Dans tous les cas, la question portera sur certaines des position étudiées en troisième partie et les critères seront directement liés à chacune des étapes du cours. Un exemple de grille d'évaluation est présenté dans la section « Exemples de matériel ».
+
