@@ -8,7 +8,7 @@
 
 .md-content h4 {
     margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     background-image: linear-gradient(to right, rgba(86, 104, 113, 1), rgba(86, 104, 113, 0.3));
     background-size: 10rem 2px;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
     background-repeat: no-repeat;
     background-position: bottom left;
 }
-
+/*
 .md-content ol li{
     margin-top: 2rem;
 }
@@ -31,3 +31,4 @@
 .md-content ol {
     margin-bottom: 2rem;
 }
+*/

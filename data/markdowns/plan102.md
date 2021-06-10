@@ -13,3 +13,8 @@ Dans la deuxième partie de la session, nous effectuerons plutôt le l’opérat
 Finalement, je dois vous rappeler que l’objectif du cours ne sera pas de débattre de cas particuliers, mais bien d’aborder la question sous un angle plus large en se questionnant à propos des fondements philosophiques de notre façon de concevoir la santé mentale. Je crois que ce thème est aussi intéressant qu’important, mais il va sans dire que nous toucherons parfois à des sujets délicats et que le respect sera exigé en tout temps. Je vous invite à communiquer avec moi pour me faire part de toute inquiétude ou me signaler toute situation problématique qui pourrait survenir.
 
 Bonne session!
+
+
+| Cours 	| Sujet 	|
+| :-----: 	| :-----: 	|
+| asd 		| asdas		|

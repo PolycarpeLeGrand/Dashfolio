@@ -1,0 +1,98 @@
+@font-face {
+    font-family: MedievalSharp;
+    src: url(MedievalSharp.ttf) format("truetype");
+}
+
+#lotr-question-title, #lotr-name-title {
+    text-align: center;
+    display: block;
+}
+
+#lotr-question-title {
+    visibility: hidden;
+}
+
+#lotr-name-title {
+    font-family: MedievalSharp;
+    font-size: 4rem;
+}
+
+#lotr-result-title {
+    text-align: center;
+}
+
+#lotr-next-btn {
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 0.375rem 0.75rem;
+    box-shadow: 1px 1px 0.1rem 0 gray;
+    transition: transform .2s ease-in-out;
+    color: #fcfcfc;
+    background-color: #626e60;
+}
+
+#lotr-next-btn:hover {
+    box-shadow: 0 0 0.5rem 0 gray;
+    transform: scale(1.1);
+}
+
+#lotr-next-btn:focus {
+    outline: none;
+}
+
+.lotr-answer-btn {
+    color: #fcfcfc;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 0.375rem 0.75rem;
+    box-shadow: 1px 1px 0.1rem 0 gray;
+    margin: 0.5rem;
+    width: 6rem;
+    height: 6rem;
+    font-size: small;
+    transition: transform .2s ease-in-out;
+}
+
+.lotr-answer-btn:hover:enabled {
+    box-shadow: 0 0 0.5rem 0 gray;
+    transform: scale(1.1);
+    background-color: #6f7c6d;
+}
+
+.lotr-answer-btn:focus {
+    outline: none;
+}
+
+.lotr-answer-btn:disabled {
+    transform: scale(0.9);
+}
+
+
+#lotr-philo-btn {
+    background-color: #626e60;
+}
+
+#lotr-philo-btn:hover:enabled {
+    background-color: #6f7c6d;
+}
+
+#lotr-philo-btn:disabled {
+    /* box-shadow: 0 0 0.1rem 0.1rem #6f7c6d; */
+    background-color: #434c42;
+}
+
+#lotr-lotr-btn {
+    background-color: #af473c;
+}
+
+#lotr-lotr-btn:hover:enabled {
+    background-color: #ab5b52;
+}
+
+#lotr-lotr-btn:disabled {
+    background-color: #773028;
+}

@@ -11,6 +11,7 @@ from dashapp.material.materialtab import material_layout
 from dashapp.phi101.phi101tab import phi101_layout
 from dashapp.phi102.phi102tab import phi102_layout
 from dashapp.logi.logitab import logi_layout
+from dashapp.lotr.lotrpage import lotr_layout
 
 from config import PROJECT_TITLE
 
@@ -24,6 +25,7 @@ PAGES = [
     {'name': 'tab-2', 'url': '/102', 'label': 'L\'être humain', 'container': phi102_layout},
     {'name': 'tab-3', 'url': '/materiel', 'label': 'Exemples de matériel', 'container': material_layout},
     {'name': 'tab-4', 'url': '/logi', 'label': 'Logique et argumentation', 'container': logi_layout},
+    # {'name': 'tab-5', 'url': '/philotr', 'label': 'Jeu questionnaire', 'container': lotr_layout},
 ]
 
 

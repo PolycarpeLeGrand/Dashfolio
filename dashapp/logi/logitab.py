@@ -24,10 +24,10 @@ SENTS = {
 TAB_ID = 'logi-tab'
 
 logi_title_div = html.Div([
-    html.H3('Logique et argumentation'),
-    html.Hr(className='hr-title'),
-    html.Br(),
-    dcc.Markdown(LOGI_MD, className='h5'),
+    # html.H3('Logique et argumentation'),
+    # html.Hr(className='hr-title'),
+    # html.Br(),
+    dcc.Markdown(LOGI_MD, className='md-content'),
     html.Button('Mode d\'emploi', id='logi-modal-btn', className='logi-btn', style={'margin-bottom': '24px'}),
     dbc.Modal([
         dbc.ModalBody([dcc.Markdown(LOGI_INST_MD, className='h5')]),
@@ -116,7 +116,7 @@ logi_layout = html.Div([
         dbc.Col([
             logi_add_prem_div,
             logi_arg_div,
-        ], style={'max-width': '720px'}),
+        ], style={'max-width': '50rem'}),
         # dbc.Col([
 
         # ], xs=0, lg=2),

@@ -28,7 +28,6 @@ def load_markdown_file(filename, path=MARKDOWNS_PATH):
         return f.read()
 
 
-COURS_MD = load_markdown_file('cours.md')
 PRES_MD = load_markdown_file('pres.md')
 MAT_MD = load_markdown_file('materiel.md')
 SEQ_MD = load_markdown_file('seq.md')
@@ -40,5 +39,5 @@ LOGI_MD = load_markdown_file('logi.md')
 LOGI_INST_MD = load_markdown_file('logi_inst.md')
 PLAN101_MD = load_markdown_file('plan101.md')
 PLAN102_MD = load_markdown_file('plan102.md')
-
+LOTR_MD = load_markdown_file('lotr.md')
 

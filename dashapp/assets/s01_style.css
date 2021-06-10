@@ -55,6 +55,7 @@ p, ul, ol {
         padding: 1rem;
         background-color: rgba(252, 252, 252, 0.95);
         margin: 4rem 4rem 4rem 26rem;
+        min-height: 50vh;
         /*max-width: 64rem;*/
     }
 }
