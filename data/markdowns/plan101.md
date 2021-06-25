@@ -1,7 +1,7 @@
 Philosophie et rationalité
 --------------------------
 
-Dans le cadre du premier cours du parcours, je propose d'orienter la session autour du thème de l'argumentation. Ce choix m'apparaît particulièrement pertinent, autant pour introduire la discipline de façon claire et engageante que pour remplir les exigences plus spécifiques du devis. Un de mes principaux objectifs est d'amener les étudiant-e-s à développer des outils leur permettant à la fois de mieux comprendre et évaluer les positions philosophiques présentées et de mieux structurer leurs propres idées. Je constate d'ailleurs que la production d'une argumentation robuste et le traitement de séries d'arguments et de contre-arguments posent un défi de taille pour plusieurs d'entre eux. Cela peut s'avérer un obstacle important à la réussite, ne serait-ce qu'au niveau de la rédaction de le dissertation finale. 
+Dans le cadre du premier cours du parcours, je propose d'orienter la session autour du thème de l'argumentation. Ce choix m'apparaît particulièrement pertinent, autant pour introduire la discipline de façon claire et engageante que pour remplir les exigences plus spécifiques du devis. Un de mes principaux objectifs est d'amener les étudiant-e-s à développer des outils leur permettant à la fois de mieux comprendre et évaluer les positions philosophiques présentées et de mieux structurer leurs propres idées. Je constate d'ailleurs que la production d'une argumentation robuste et le traitement de séries d'arguments et de contre-arguments posent un défi de taille pour plusieurs d'entre eux. Cela peut s'avérer un obstacle important à la réussite, ne serait-ce qu'au niveau de la rédaction de le dissertation finale.
 
 Dans l'espoir de pallier à cette difficulté et d'assurer une préparation adéquate, l'argumentation sera toujours au centre des discussions, à la fois comme outil de travail et comme objet d'étude. Le discours philosophique sera introduit comme un discours avant tout argumentatif et c'est à partir de cet angle que nous analyserons les positions présentées. En même temps, les principaux questionnements toucheront à la nature des arguments et aux façons dont ils peuvent être évalués. Cette façon de faire permettra aussi d'assurer une continuité entre les différents éléments du cours, chaque nouvelle notion pouvant ensuite être mise à contribution dans l'interprétation de celles présentées ultérieurement.
 
@@ -10,10 +10,10 @@ Le développement des aptitudes argumentatives devant passer par la mise en prat
 Ce modèle est très flexibilité quant au contenu exact qui sera abordé. Les positions philosophiques pertinentes ne manquent pas et de nombreux auteurs de la tradition peuvent être mobilisés afin de nous éclairer. Dans la section qui suit, je présente quelques pistes qui me semblent particulièrement intéressantes, mais je pourrais sans problème m'adapter en fonction des exigences de votre établissement.
 
 
-#### Planification et contenu
+#### Présentation générale
 
 
-Tel que mentionné, l'argumentation jouera un rôle central, à la fois dans le choix des sujets que dans la façon de les aborder. L'organisation du cours est pensée en quatre étapes, chacune s'inscrivant en continuité avec la précédente. 
+Tel que mentionné, l'argumentation jouera un rôle central, à la fois dans le choix des sujets que dans la façon de les aborder. L'organisation du cours est pensée en quatre étapes, chacune s'inscrivant en continuité avec la précédente.
 
 1. Question de fixer le contexte, nous commencerons par une entrée en matière visant à introduire la discipline de façon plus large: la philosophie est un type de questionnement particulier, auquel on doit apporter un type de réponse particulier. Au terme de l'étape, nous serons en mesure de comprendre ce qu'est une question philosophique. Nous verrons toutefois que produire une réponse adéquate à ce type de question est loin d'être simple, et c'est sur quoi nous nous pencherons pour le reste de la session.
 2. Nous aurons vu en première partie qu'une réponse à une question philosophique doit reposer sur une argumentation rigoureuse. Mais qu'est-ce qui constitue un bon argument? Cette question est étonnamment complexe et à la source de beaucoup de confusion. Au cours de la deuxième étape, nous utiliserons la logique pour nous aider à y voir plus clair. 
@@ -21,6 +21,7 @@ Tel que mentionné, l'argumentation jouera un rôle central, à la fois dans le 
 4. Finalement, l'atteinte de la compétence devra être démontrée à travers la rédaction de la dissertation. L'exercice permettra de faire une synthèse des apprentissages, les principaux critères correspondant largement à chacune des étapes de la session. En effet, pour traiter d'une question philosophique, les étudiant-e-s devront d'abord être en mesure de bien comprendre la question, pour ensuite produire une réponse adéquate tant au niveau de la forme que du contenu.
 
 
+#### Détails du contenu
 
 ##### Étape 1
 
@@ -146,6 +147,24 @@ Ainsi, cette troisième étape permettra de se plonger directement dans différe
 La quatrième étape servira de conclusion et permettra de faire une dernière révision en vue de l'épreuve finale. Un retour critique sur le contenu du cours sera fait afin de bien boucler la boucle et de permettre une ouverture sur le prochain cours du parcours.
 
 
+#### Exemples d'activités formatives
+
+* **Questions philosophiques (Étape 1)**
+	Après une présentation générale de la philosophie et de ses grandes questions, chaque étudiant-e devra tenter d'identifier des questions ou présupposés philosophiques en lien avec son domaine d'étude. Par exemple, un étudiant en sciences pourrait proposer des pistes en lien avec la méthode scientifique, la causalité, l'éthique de la recherche, etc. Les réponses des pourront ensuite être utilisées pour guider les discussions et compléter la présentation de façon interactive. Lorsque pertinent, des liens entre les idées avancées par les étudiant-e-s et les positions de grands auteurs de la tradition seront établis. 
+
+* **Textes d'opinion et argumentation (Étape 2)**
+	Étudier des passages tirés de textes d'opinion et identifier les idées qui composent les prémisses et la conclusion. Si le raisonnement repose sur une ou des prémisses implicites, . Même chose pour les prémisses superflues.
+
+* **Décomposition d'arguments philosophiques (Étape 2)**
+	Ansèlme ou autres.
+
+
+* **Argumentation et théories du complot (Étape 3)**
+	Je pense par exemple proposer un atelier sur les théorie du complot, dans lequel les étudiant-e-s seraient amené-e-s à composer des arguments complotistes spécieux, pour ensuite critiquer ceux de leurs collègues à partir des positions étudiées. Ce genre d'exercice permettrait de mettre en pratique toutes les notions vues dans les deuxième et troisième étape, à la fois dans le développement et la critique d'arguments.
+
+* **Exercice de rédaction (Étape 3)**
+	Exercice préparatoire en vue de la dissertation. Tout dépendant des exigences du pan cadre, il pourrait s'agir de la rédaction d'un plan détaillé, d'une introduction ou d'un paragraphe. 
+
 #### Évaluations sommatives
 
 
@@ -172,3 +191,6 @@ La quatrième étape servira de conclusion et permettra de faire une dernière r
 5. **Épreuve finale (Étape 4, 30%)**
 	
 	Le format (et la pondération) de la dissertation finale dépendra évidemment des directives départementales. Dans tous les cas, la question portera sur certaines des position étudiées en troisième partie et les critères seront directement liés à chacune des étapes du cours. Un exemple de grille d'évaluation est présenté dans la section « Exemples de matériel ».
+
+
+

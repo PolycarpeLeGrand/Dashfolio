@@ -9,7 +9,7 @@
 }
 
 a.nav-link {
-    color: #000000;
+    color: var(--c-text);
 }
 
 #collapse *:first-child {
@@ -25,35 +25,31 @@ a.nav-link {
     padding: 2rem 1rem;
 }
 
-/* add the three horizontal bars icon for the toggle */
-
-
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .nav-link:hover {
     text-decoration: underline;
-    /* color: black; */
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-    color: #fcfcfc;
+    color: var(--c-bg-light);
     text-decoration: none;
-    background-color: #626e60; /*#CD5360;*/
+    background-color: var(--c-secondary);
     box-shadow: 2px 2px 4px 0 black;
 }
 
 @media (max-width: 64em) {
     #collapse {
         border-top: 1px black solid;
-        background-color: #af473c;
+        background-color: var(--c-primary);
     }
 
     #sidebar {
         text-align: left;
-        background-color: #626e60;
+        background-color: var(--c-secondary);
         color: #ffffff;
         width: 100%;
     }
@@ -74,7 +70,7 @@ a.nav-link {
         box-shadow: 1px 1px 2px 0 gray;
         border-radius: 5px;
         color: #000000;
-        background: #fcfcfc;
+        background: var(--c-bg-light);
         /* background-image: linear-gradient(to right, #438496, #fcfcfc); /* #708348 */
     }
 
@@ -102,7 +98,7 @@ a.nav-link {
         height: 1px;
         width: 75%;
         border: none;
-        background-color: #af473c;
+        background-color: var(--c-primary);
         text-align: center;
     }
 

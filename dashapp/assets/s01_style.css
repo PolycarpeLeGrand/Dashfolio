@@ -1,15 +1,24 @@
+:root {
+    --c-bg-light: #fcfcfc;
+    --c-primary: #af473c;
+    /*--c-secondary:#626e60; */
+    --c-secondary:#626e60;
+    --c-text: black;
+    --c-test: pink;
+}
+
 body {
     font-family: sans-serif;
     min-height: 100vh;
-    background-color: #fcfcfc;
+    background-color: var(--c-bg-light);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: black;
+    color: var(--c-text);
 }
 
 p, ul, ol {
-    color: black;
+    color: var(--c-text);
     font-size: 1rem;
     line-height: 1.5;
     text-align: justify;
@@ -29,18 +38,13 @@ p, ul, ol {
     #page-content {
         width: 100%;
         border: none;
-        background-color: #fcfcfc;
+        background-color: var(--c-bg-light);
     }
 }
 
 @media (min-width: 64em) {
 
     body {
-        /* background-image: linear-gradient(to bottom right, #438496, #fcfcfc 50%); /* #708348 */
-        /* background-image: linear-gradient(to bottom right, #07889B, #fcfcfc 50%); /* #708348 */
-        /* background-image: repeating-linear-gradient(-20deg, #af473c 0%, #af473c 15%, transparent 15%, transparent);
-        background-image: repeating-linear-gradient(25deg, transparent, transparent 40%, #af473c 40%, #af473c 70%, transparent 70% , transparent);
-        */
         background-image: repeating-linear-gradient(25deg, transparent, transparent 30%, #af473c 30%, #af473c 70%, transparent 70% , transparent);
         background-size: 100vw 120vw;
         background-repeat: repeat-y;
@@ -49,14 +53,12 @@ p, ul, ol {
     }
 
     #page-content {
-        /* border: 1px solid gray; */
         border: none;
         border-radius: 3px;
         padding: 1rem;
         background-color: rgba(252, 252, 252, 0.95);
         margin: 4rem 4rem 4rem 26rem;
         min-height: 50vh;
-        /*max-width: 64rem;*/
     }
 }
 
