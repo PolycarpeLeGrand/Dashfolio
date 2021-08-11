@@ -5,6 +5,7 @@ Le deuxième cours du parcours permet d'explorer un champ extrêmement vaste, au
 
 Dans ce qui suit, je propose une ébauche de plan de cours pour une session articulée autour du thème de la santé mentale. Ce choix me semble particulièrement intéressant, étant à la fois près de l'actualité et très fertile au niveau des réflexions philosophiques. Le cours vise également à bâtir sur les acquis du précédent, l'analyse des arguments étant toujours à l'avant-plan lors de l'étude ou la comparaison de positions philosophiques. Parallèlement, les occasions seront nombreuses de faire des liens avec des enjeux éthiques, permettant ainsi de mettre la table pour le dernier cours du parcours.
 
+***
 
 #### Présentation générale
 

@@ -7,8 +7,7 @@ from dashapp import MAT_MD, SEQ_MD, AUTH_MD, CONSPI_MD, GRILLE_MD, QUESTIONNAIRE
 # Set tab id
 TAB_ID = 'material-tab'
 
-material_content = html.Div([
-
+material_content_micro = html.Div([
     html.H3('Exemples de matériel'),
     html.Hr(className='hr-title'),
     html.Br(),
@@ -44,8 +43,26 @@ material_content = html.Div([
 
 ])
 
+material_head = html.Div([
+    html.H3('Exemples de matériel'),
+    html.Hr(className='hr-title'),
+    html.Br(),
+
+    dcc.Markdown('Materiel et cie'),
+    html.Br(),
+
+    dbc.Tabs([
+        dbc.Tab(material_content_micro, label='Microprogramme'),
+        dbc.Tab(material_content_micro, label='Documents'),
+        dbc.Tab(material_content_micro, label='Ateliers et Activités'),
+
+    ])
+
+])
 
 material_layout = html.Div([
-    material_content,
+    # material_head,
+    # html.Div(id='material-content-div')
+    material_content_micro,
 ], id=TAB_ID)
 

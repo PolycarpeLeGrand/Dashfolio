@@ -53,6 +53,23 @@ sidebar_header = dbc.Row(
     ], id='header-row', no_gutters=True
 )
 
+nav_drop = dbc.DropdownMenu([
+    dbc.DropdownMenuItem('Premier', href='#'),
+    dbc.DropdownMenuItem('Second', href='#'),
+    ],
+    nav=True,
+    in_navbar=True,
+    label='Matos'
+)
+
+nd = dbc.Collapse(
+    html.Div([
+        dbc.NavLink('Poil', href='#', active='exact', id={'type': 'nav-btn', 'id': 'poil'}),
+        dbc.NavLink('Allo', href='#', active='exact', id={'type': 'nav-btn', 'id': 'allo'})
+    ]),
+    is_open=True
+)
+
 sidebar = html.Div(
     [
         sidebar_header,
@@ -71,7 +88,7 @@ sidebar = html.Div(
         ),
         dbc.Collapse(
             dbc.Nav(
-                [dbc.NavLink(link['label'], href=link['url'], active='exact', id={'type': 'nav-btn', 'id': link['name']}) for link in PAGES],
+                [dbc.NavLink(link['label'], href=link['url'], active='exact', id={'type': 'nav-btn', 'id': link['name']}) for link in PAGES], #  + [nd, dbc.NavLink('Fin', href='#', active='exact', id={'type': 'nav-btn', 'id': 'asdo'})],
                 vertical=True,
                 pills=True,
             ),
