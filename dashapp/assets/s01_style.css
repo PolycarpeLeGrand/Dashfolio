@@ -45,8 +45,8 @@ p, ul, ol {
 @media (min-width: 64em) {
 
     body {
-        /*background-image: repeating-linear-gradient(25deg, transparent, transparent 30%, #af473c 30%, #af473c 70%, transparent 70% , transparent);*/
-        background-image: repeating-linear-gradient(25deg, transparent, transparent 30%, #af473c 35%, #af473c 65%, transparent 70% , transparent);
+        background-image: repeating-linear-gradient(25deg, transparent, transparent 30%, #af473c 30%, #af473c 70%, transparent 70% , transparent);
+        /*background-image: repeating-linear-gradient(25deg, transparent, transparent 30%, #af473c 35%, #af473c 65%, transparent 70% , transparent);*/
         /*background-image: repeating-linear-gradient(25deg, #602720, #602720 30%, #481e19 35%, #481e19 65%, #602720 70% , #602720);*/
         background-size: 100vw 120vw;
         background-repeat: repeat-y;
