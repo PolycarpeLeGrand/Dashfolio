@@ -12,6 +12,7 @@ from dashapp.phi101.phi101tab import phi101_layout
 from dashapp.phi102.phi102tab import phi102_layout
 from dashapp.logi.logitab import logi_layout
 from dashapp.lotr.lotrpage import lotr_layout
+from dashapp.dice.dicetab import dice_layout
 
 from config import PROJECT_TITLE
 
@@ -25,9 +26,11 @@ PAGES = [
     {'name': 'tab-2', 'url': '/102', 'label': 'L\'être humain', 'container': phi102_layout},
     {'name': 'tab-3', 'url': '/materiel', 'label': 'Exemples de matériel', 'container': material_layout},
     {'name': 'tab-4', 'url': '/logi', 'label': 'Logique et argumentation', 'container': logi_layout},
+    {'name': 'tab-5', 'url': '/dice', 'label': 'Dice', 'container': dice_layout},
     # {'name': 'tab-5', 'url': '/philotr', 'label': 'Jeu questionnaire', 'container': lotr_layout},
 ]
 
+NAV_PAGES = PAGES[:-1]
 
 sidebar_header = dbc.Row(
     [
@@ -88,7 +91,7 @@ sidebar = html.Div(
         ),
         dbc.Collapse(
             dbc.Nav(
-                [dbc.NavLink(link['label'], href=link['url'], active='exact', id={'type': 'nav-btn', 'id': link['name']}) for link in PAGES], #  + [nd, dbc.NavLink('Fin', href='#', active='exact', id={'type': 'nav-btn', 'id': 'asdo'})],
+                [dbc.NavLink(link['label'], href=link['url'], active='exact', id={'type': 'nav-btn', 'id': link['name']}) for link in NAV_PAGES], #  + [nd, dbc.NavLink('Fin', href='#', active='exact', id={'type': 'nav-btn', 'id': 'asdo'})],
                 vertical=True,
                 pills=True,
             ),
