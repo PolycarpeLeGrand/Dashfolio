@@ -49,6 +49,11 @@ p, ul, ol {
     bottom: 0;
 }
 
+/* fix weird bug with dbc 1.0 carousel */
+.visually-hidden {
+    display: none !important;
+}
+
 @media (max-width: 64em) {
     #page-content {
         width: 100%;
