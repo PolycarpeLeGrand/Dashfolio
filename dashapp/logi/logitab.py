@@ -36,7 +36,7 @@ logi_title_div = html.Div([
 
 logi_propositions_div = html.Div(
     [
-        dbc.InputGroup([dbc.InputGroupAddon(f'Proposition {p}', addon_type="prepend"),
+        dbc.InputGroup([dbc.InputGroupText(f'Proposition {p}'),
                         dbc.Input(id=f'logi-prop-input-{p}', type='text', value=SENTS[p])],
                        style={'margin-bottom': '3px'})
         for p in PROPS
@@ -45,9 +45,9 @@ logi_propositions_div = html.Div(
 
 logi_add_prem_div = html.Div([  # dbc.Card([
     dbc.Form([
-        dbc.FormGroup([
+        html.Div([
             dbc.InputGroup([
-                dbc.InputGroupAddon('Opérateur logique', addon_type="prepend"),
+                dbc.InputGroupText('Opérateur logique'),
                 dbc.Select(id='logi-prem-operator-select',
                            options=[
                                {'label': 'Proposition atomique', 'value': 'simple'},
@@ -58,7 +58,7 @@ logi_add_prem_div = html.Div([  # dbc.Card([
                            value='simple')
             ], style={'padding-right': '24px'}),
         ]),
-        dbc.FormGroup([
+        html.Div([
             dbc.Label(id='logi-prem-operator-label-1', style={'padding-right': '3px', 'min-width': '20px'}),
             dbc.Select(id='logi-prem-prop-1', style={'max-width': '100px'},
                        options=[
@@ -73,10 +73,10 @@ logi_add_prem_div = html.Div([  # dbc.Card([
                        ],
                        value=''),
         ], style={'min-width': '250px', }),
-        dbc.FormGroup([
+        html.Div([
             html.Button('Ajouter', className='logi-btn', id='logi-add-prem-btn'),
         ], style={'padding-left': '24px'}),
-    ], inline=True, style={'border': 'solid', 'border-width': '1px', 'padding': '8px'}),
+    ], style={'border': 'solid', 'border-width': '1px', 'padding': '8px'}),
     # justify='start', align='start'),
 ])
 

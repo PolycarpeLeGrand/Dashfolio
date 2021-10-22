@@ -53,7 +53,7 @@ sidebar_header = dbc.Row(
             width="auto",
             align="center",
         ),
-    ], id='header-row', no_gutters=True
+    ], id='header-row'
 )
 
 nav_drop = dbc.DropdownMenu([
